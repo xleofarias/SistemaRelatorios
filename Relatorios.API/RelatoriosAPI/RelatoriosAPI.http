@@ -1,0 +1,6 @@
+@RelatoriosAPI_HostAddress = http://localhost:5226
+
+GET {{RelatoriosAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

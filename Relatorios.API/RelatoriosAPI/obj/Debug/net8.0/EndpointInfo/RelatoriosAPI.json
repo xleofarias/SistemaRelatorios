@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "RelatoriosAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/relatorios": {
+      "post": {
+        "tags": [
+          "RelatoriosAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/relatorios/{id}/Status": {
+      "get": {
+        "tags": [
+          "RelatoriosAPI"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
