@@ -116,4 +116,4 @@ C:\Users\leofa\source\repos\SistemaRelatorios\Relatorios.API\RelatoriosAPI\obj\D
 C:\Users\leofa\source\repos\SistemaRelatorios\Relatorios.API\RelatoriosAPI\obj\Debug\net8.0\RelatoriosAPI.pdb
 C:\Users\leofa\source\repos\SistemaRelatorios\Relatorios.API\RelatoriosAPI\obj\Debug\net8.0\RelatoriosAPI.genruntimeconfig.cache
 C:\Users\leofa\source\repos\SistemaRelatorios\Relatorios.API\RelatoriosAPI\obj\Debug\net8.0\ref\RelatoriosAPI.dll
-C:\Users\leofa\source\repos\SistemaRelatorios\Relatorios.API\RelatoriosAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\leofa\source\repos\SistemaRelatorios\Relatorios.API\RelatoriosAPI\obj\Debug\net8.0\RelatoriosAPI.sourcelink.json

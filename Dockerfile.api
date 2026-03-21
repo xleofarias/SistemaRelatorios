@@ -1,0 +1,20 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build 
+WORKDIR /src
+
+COPY ./Relatorios.API/RelatoriosAPI/*.csproj ./Relatorios.API/RelatoriosAPI/
+COPY ./Relatorios.Contracts/Contracts/*.csproj ./Relatorios.Contracts/Contracts/
+RUN dotnet restore Relatorios.API/RelatoriosAPI/RelatoriosAPI.csproj
+
+COPY ./Relatorios.API/RelatoriosAPI ./Relatorios.API/RelatoriosAPI/
+COPY ./Relatorios.Contracts/Contracts ./Relatorios.Contracts/Contracts/
+RUN dotnet publish Relatorios.API/RelatoriosAPI/RelatoriosAPI.csproj -c Release -o /app/out/
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+
+COPY --from=build /app/out/ .
+
+EXPOSE 8080
+ENTRYPOINT [ "dotnet", "RelatoriosAPI.dll" ]
+
+

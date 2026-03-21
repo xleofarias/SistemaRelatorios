@@ -1,0 +1,25 @@
+services:
+    api:
+        build: 
+            context: .
+            dockerfile: Dockerfile.api
+        ports:
+            - "8080:8080"
+        volumes:
+            - .:/src
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ConnectionStrings__RelatoriosAPI=Host=host.docker.internal;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+            - ConnectionStrings__ConnectionRabbit=${RABBITMQ_URL}
+        command: dotnet watch run --project /src/Relatorios.API/RelatoriosAPI/RelatoriosAPI.csproj
+    worker:
+        build: 
+            context: .
+            dockerfile: Dockerfile.worker
+        volumes:
+            - .:/src
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+            - ConnectionStrings__RelatoriosAPI=Host=host.docker.internal;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+            - ConnectionStrings__ConnectionRabbit=${RABBITMQ_URL}
+        command: dotnet watch run --project /src/Relatorios.Worker/RelatoriosWorker/RelatoriosWorker.csproj
