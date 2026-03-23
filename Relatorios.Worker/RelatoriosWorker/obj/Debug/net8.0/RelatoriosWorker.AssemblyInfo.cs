@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RelatoriosWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b1ea38f53441eb909116bf0a08b34daa0c27748")]
 [assembly: System.Reflection.AssemblyProductAttribute("RelatoriosWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RelatoriosWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

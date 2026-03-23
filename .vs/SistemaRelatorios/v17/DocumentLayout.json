@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.worker\\relatoriosworker\\consumer\\relatoriosolicitadoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|solutionrelative:relatorios.worker\\relatoriosworker\\consumer\\relatoriosolicitadoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.worker\\relatoriosworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|solutionrelative:relatorios.worker\\relatoriosworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.api\\relatoriosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|solutionrelative:relatorios.api\\relatoriosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.api\\relatoriosapi\\relatoriosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|solutionrelative:relatorios.api\\relatoriosapi\\relatoriosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.api\\relatoriosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|solutionrelative:relatorios.api\\relatoriosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.worker\\relatoriosworker\\data\\workerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|solutionrelative:relatorios.worker\\relatoriosworker\\data\\workerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.worker\\relatoriosworker\\models\\relatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|solutionrelative:relatorios.worker\\relatoriosworker\\models\\relatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7007FD2-CF2F-4407-AD76-557BD73F1911}|Relatorios.Contracts\\Contracts\\Contracts.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.contracts\\contracts\\events\\relatorioscreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7007FD2-CF2F-4407-AD76-557BD73F1911}|Relatorios.Contracts\\Contracts\\Contracts.csproj|solutionrelative:relatorios.contracts\\contracts\\events\\relatorioscreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.worker\\relatoriosworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|solutionrelative:relatorios.worker\\relatoriosworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,100 +70,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RelatorioSolicitadoConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Consumer\\RelatorioSolicitadoConsumer.cs",
-              "RelativeDocumentMoniker": "Relatorios.Worker\\RelatoriosWorker\\Consumer\\RelatorioSolicitadoConsumer.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Consumer\\RelatorioSolicitadoConsumer.cs",
-              "RelativeToolTip": "Relatorios.Worker\\RelatoriosWorker\\Consumer\\RelatorioSolicitadoConsumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T17:34:46.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-20T22:29:57.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RelatoriosAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj",
-              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj",
-              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-20T22:09:36.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:31:09.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorkerDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Data\\WorkerDbContext.cs",
-              "RelativeDocumentMoniker": "Relatorios.Worker\\RelatoriosWorker\\Data\\WorkerDbContext.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Data\\WorkerDbContext.cs",
-              "RelativeToolTip": "Relatorios.Worker\\RelatoriosWorker\\Data\\WorkerDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T00:30:18.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Relatorio.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Models\\Relatorio.cs",
-              "RelativeDocumentMoniker": "Relatorios.Worker\\RelatoriosWorker\\Models\\Relatorio.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Models\\Relatorio.cs",
-              "RelativeToolTip": "Relatorios.Worker\\RelatoriosWorker\\Models\\Relatorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T00:30:17.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RelatoriosCreatedEvent.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Contracts\\Contracts\\Events\\RelatoriosCreatedEvent.cs",
-              "RelativeDocumentMoniker": "Relatorios.Contracts\\Contracts\\Events\\RelatoriosCreatedEvent.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Contracts\\Contracts\\Events\\RelatoriosCreatedEvent.cs",
-              "RelativeToolTip": "Relatorios.Contracts\\Contracts\\Events\\RelatoriosCreatedEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T00:27:51.362Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Program.cs",
               "RelativeDocumentMoniker": "Relatorios.Worker\\RelatoriosWorker\\Program.cs",
               "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Program.cs",
               "RelativeToolTip": "Relatorios.Worker\\RelatoriosWorker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T00:25:35.023Z"
+              "WhenOpened": "2026-03-22T02:44:25.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAACcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T02:29:58.67Z",
+              "EditorCaption": ""
             }
           ]
         },

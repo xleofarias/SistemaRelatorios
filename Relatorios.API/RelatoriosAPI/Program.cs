@@ -1,6 +1,7 @@
 using Contracts.Events;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using RabbitMQ.Client;
 using RelatoriosAPI.Data;
 using RelatoriosAPI.Models;
 
@@ -34,6 +35,9 @@ builder.Services.AddMassTransit(x =>
         cfg.Host(connectionRabbit);
     });
 });
+
+builder.Services.AddHealthChecks()
+    .AddNpgSql(connection);
 
 var app = builder.Build();
 
@@ -77,6 +81,8 @@ app.MapGet("api/relatorios/{id:guid}/Status", async (Guid id, AppDbContext db) =
 
     return Results.Ok(new {Status = relatorio.Status});
 });
+
+app.MapHealthChecks("/health");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

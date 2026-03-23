@@ -9,8 +9,15 @@ services:
         environment:
             - ConnectionStrings__RelatoriosAPI=Host=db;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
             - ConnectionStrings__ConnectionRabbit=${RABBITMQ_URL}
+        healthcheck:
+            test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+            interval: 5s
+            timeout: 5s
+            retries: 5
+            start_period: 10s
         depends_on:
-            - db
+            db:
+                condition: service_healthy
     worker:
         container_name: worker
         build: 
@@ -20,8 +27,10 @@ services:
             - ConnectionStrings__RelatoriosAPI=Host=db;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
             - ConnectionStrings__ConnectionRabbit=${RABBITMQ_URL}
         depends_on:
-            - db
-            - api
+            db:
+                condition: service_healthy
+            api:
+                condition: service_healthy
     db:
         image: postgres:16
         container_name: relatorios-db
@@ -31,5 +40,11 @@ services:
             - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
         volumes:
             - relatorios_data:/var/lib/postgresql/data
+        healthcheck:
+            test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER}", "-d", "${POSTGRES_DB}"]
+            interval: 5s # testa a cada 5 segundos
+            timeout: 5s # aguarda 5 segundos por resposta
+            retries: 5  # tenta 5 vezes antes de declarar unhealthy
+            start_period: 10s # aguarda 10s antes de começar a testar
 volumes:
     relatorios_data:
