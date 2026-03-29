@@ -18,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T13:36:45.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.staging.json",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
-              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
-              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-29T13:36:16.672Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -93,6 +67,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:36:45.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.staging.json",
+              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
+              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
+              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
+              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\appsettings.staging.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-29T13:36:16.672Z"
             }
           ]
         },
