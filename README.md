@@ -25,8 +25,21 @@ This is a Monorepo containing three main components:
 3. Configure your connection strings using .NET User Secrets in both the API and Worker projects:
    `dotnet user-secrets set "ConnectionStrings:RelatoriosAPI" "Your_Postgres_String"`
    `dotnet user-secrets set "ConnectionStrings:ConnectionRabbit" "Your_RabbitMQ_String"`
-4. Run `dotnet ef database update` in the API project to apply migrations.
+4. Run `dotnet ef database update --project Relatorios.API/RelatoriosAPI/` 
+from the repository root.
 5. Start both the API and the Worker simultaneously using `dotnet run`.
+
+## 🐳 How to Run with Docker
+
+1. Clone this repository.
+2. Copy the environment file and fill in your values:
+   `cp .env.example .env`
+3. Apply database migrations:
+   `dotnet ef database update --project Relatorios.API/RelatoriosAPI/ --connection "Host=localhost;Port=5433;Database=RelatoriosDb;Username=...;Password=..."`
+4. Start all services:
+   `docker compose up --build`
+
+The API will be available at `http://localhost:8080`.
 
 ## 📡 API Endpoints
 
