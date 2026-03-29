@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.api\\relatoriosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E84D52-47F7-433E-8F85-98D4EA00F6E6}|Relatorios.API\\RelatoriosAPI\\RelatoriosAPI.csproj|solutionrelative:relatorios.api\\relatoriosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|c:\\users\\leofa\\source\\repos\\sistemarelatorios\\relatorios.worker\\relatoriosworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2F4E4D-4EED-499D-9AD0-DBA9C250BF54}|Relatorios.Worker\\RelatoriosWorker\\RelatoriosWorker.csproj|solutionrelative:relatorios.worker\\relatoriosworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,32 +58,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Program.cs",
-              "RelativeDocumentMoniker": "Relatorios.Worker\\RelatoriosWorker\\Program.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.Worker\\RelatoriosWorker\\Program.cs",
-              "RelativeToolTip": "Relatorios.Worker\\RelatoriosWorker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:44:25.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\leofa\\source\\repos\\SistemaRelatorios\\Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "RelativeToolTip": "Relatorios.API\\RelatoriosAPI\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:29:58.67Z",
-              "EditorCaption": ""
             }
           ]
         },

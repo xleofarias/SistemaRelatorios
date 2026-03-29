@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RelatoriosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b1ea38f53441eb909116bf0a08b34daa0c27748")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab7f6b0a0d382683ab79d30f6b3bb93883d4e4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RelatoriosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RelatoriosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

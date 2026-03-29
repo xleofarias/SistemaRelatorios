@@ -27,13 +27,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 
 //Add MassTransit (RABBIT)
-var connectionRabbit = Environment.GetEnvironmentVariable("ConnectionRabbit") ?? builder.Configuration.GetConnectionString("ConnectionRabbit");
+var connectionRabbit = builder.Configuration.GetConnectionString("ConnectionRabbit");
 builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq((context, cfg) =>
     {
         cfg.Host(connectionRabbit);
     });
+});
+
+builder.Services.Configure<MassTransitHostOptions>(options =>
+{
+    options.WaitUntilStarted = true;
+    options.StartTimeout = TimeSpan.FromSeconds(30);
 });
 
 builder.Services.AddHealthChecks()
@@ -91,7 +97,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+if (!app.Environment.IsProduction()) {
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthorization();
 

@@ -1,0 +1,7 @@
+services:
+    api:
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Staging
+    worker:
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Staging
